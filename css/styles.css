@@ -30,7 +30,7 @@ body {
 }
 
 section h2 {
-  margin-top: 5%;
+  margin-top: 1%;
   color: #0077B6;
   font-size: 1.8rem;
 }
@@ -40,7 +40,7 @@ section h2 {
   z-index: 1;
   position: fixed;
   font-size: 1.2rem;
-  background-color: rgba(205, 237, 246, 0.7);
+  background-color: rgba(205, 237, 246, 1);
   width: 100%;
 }
 
@@ -95,17 +95,10 @@ section h2 {
   text-align: center;
   margin: auto;
   max-width: 100%;
-  color: #042a2b;
+  color: #0077B6;
+    font-size: 1.6rem;
 }
 
-.title {
-  font-size: 1.6rem;
-}
-
-.social-nav {
-  display: inline;
-  text-align: center;
-}
 
 /* Masthead - Section   */
 .masthead {
@@ -121,29 +114,32 @@ section h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 2px 1px black;
   text-transform: uppercase;
 }
 
 .hero-content h1 {
   font-size: 2.5rem;
-  color: #94DFF4
+  color: #0077B6;
+  text-shadow: 2px 2px 2px white;
 }
 
 .hero-content p {
   font-size: 1.3rem;
   font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 2px #0077B6;
 }
 
 /* About Section 2   */
 .about {
-  background: url('../images/waves.png') center/cover no-repeat;
   max-width: 100%;
   margin: 0 auto;
-  padding: 50px;
-  min-height: 50vh;
+  min-height: 40vh;
+  font-size: 1.6rem;
 }
 
+.about p {
+font-family: 'Open Sans', sans-serif;
+}
 
 .images li {
   font-size: 1.3rem;
@@ -327,11 +323,9 @@ label {
 footer {
   text-align: center;
   color: black;
-  background: url('../images/waves.png') center/cover no-repeat;
-  max-width: 100%;
+  background: whtie;
   margin: 0 auto;
-  padding: 50px;
-  min-height: 50vh;
+  padding: 10px;
 }
 
 footer a {
