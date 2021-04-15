@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, " />
+  <meta name="robots" content="noindex">
+  <!-- Styles  -->
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/8f6a4db92f.js" crossorigin="anonymous"></script>
+
+
+  <!-- [if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif] -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <title>Mermaid & Tadpoles</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="#home"><img src="images/M&T_Logo.png" class="logo" alt="logo"></a>
+      <p class="nav-links title">
+        Mermaid's & Tadpoles
+      </p>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="#home" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-links">About Us</a>
+        </li>
+        <li>
+          <a href="#gallary" class="nav-links">Gallary</a>
+        </li>
+        <li>
+          <a href="#register" class="nav-links">Schedule</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="nav-links">Contact US</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Masthead Section -->
+    <section id="home" class="masthead">
+      <div class="hero-content">
+        <h1>Mermaid's & Tadpoles</h1>
+        <p>
+          private swim instruction to families
+          SERVICING NW St. Johns County
+        </p><br />
+        <a href="#about" class="button">Learn More</a>
+      </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>We provide effective instruction in a safe, <br />fun environment while creatingthe best experience for the parents and child</p>
+      <article>
+        <h2>Our Services</h2>
+        <p>
+          Private Swim Instruction | Swimming Technique | Family Swimming Lessions
+        </p>
+
+
+        <a href="#register" class="button">Register Now!</a>
+      </article>
+
+    </section>
+
+    <!-- Services Section  -->
+    <section class="images" id="gallary">
+      <h2>Gallary</h2>
+
+      <aside class="slider">
+        <div>
+          <figure>
+            <a><img src="images/photo-1.jpg" alt="Cat Playing" /></a>
+            <figcaption>
+              Katie Learning
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <a><img src="images/photo-2.jpg" alt="Cats Playing" /> </a>
+            <figcaption>
+              Paul Swimming
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <a><img src="images/photo-3.jpg" alt="Dog Gets Bath" /> </a>
+            <figcaption>
+              Teaching
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <a><img src="images/photo-4.jpg" alt="Dog plays Tug of War" /> </a>
+            <figcaption>
+              Bryce Learning
+            </figcaption>
+          </figure>
+        </div>
+
+      </aside>
+    </section>
+
+
+    <!-- Contact form section  -->
+    <section>
+      <div class="container2" id="register">
+        <h2>Schedule
+          your next lesson</h2>
+        <p>Please fill out the form below and someone will be in contact with you shortly</p><br />
+        <!-- First Name Input  -->
+        <form name="contact" method="POST" data-netlify="true">
+
+          <div class="first-name input-section">
+            <label for="firstname" class="label_input_wrap">First Name:
+            </label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name" required />
+          </div>
+          <!-- Last name input -->
+          <div class="last-name input-section">
+            <label for="lastname" class="label_input_wrap">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" />
+          </div>
+          <!-- Email Input -->
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email Address" required />
+          </div>
+
+          <!-- Phone Input -->
+
+          <div class="Telephone input-section">
+            <label for="telephone" class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+          </div>
+
+          <!-- Text Area -->
+          <div class="input-section">
+            <label for="comments" class="label_input_wrap">Comments:</label>
+            <textarea name="comments" id="comments" cols="40" rows="5" placeholder="Your Comments Go here"></textarea>
+          </div>
+
+
+          <!-- reset -->
+          <div class="reset input-section">
+            <input type="reset" value="Try Agian" />
+          </div>
+          <!-- submit button -->
+          <div class="submit input-section">
+            <input type="submit" value="Submit Form" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <h2>Connect with us!</h2>
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+      <a href="mailto:info@MermaidsandTadpoles.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+
+    </footer>
+
+  </main>
+
+  <!-- Javascript for Slick -->
+  <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+  <!-- Javascript for menu nav -->
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>
